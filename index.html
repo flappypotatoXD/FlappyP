@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlappyPotato!</title>
+    <style>
+        body {
+            background-color: #f4e7d3; /* Ziemniaczany kolor tła */
+            font-family: "Courier New", Courier, monospace;
+            color: #332211;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 3px solid #8b5a2b;
+            padding: 30px;
+            box-shadow: 6px 6px 0px #8b5a2b; /* Twardy cień w stylu retro */
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-top: 0;
+            color: #cc6600;
+            text-shadow: 2px 2px #ffcc99;
+        }
+        hr {
+            border: 0;
+            border-bottom: 2px dashed #8b5a2b;
+            margin: 25px 0;
+        }
+        .potato-img {
+            image-rendering: pixelated; /* Lepszy wygląd dla gier retro */
+            border: 3px solid #332211;
+            background-color: #eee;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            border: 3px solid #228B22;
+            margin-top: 15px;
+            box-shadow: 4px 4px 0px #228B22;
+            transition: all 0.1s;
+        }
+        .download-btn:active {
+            /* Efekt wciśnięcia przycisku */
+            transform: translate(4px, 4px);
+            box-shadow: 0px 0px 0px #228B22;
+        }
+        .note {
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Siema!</h1>
+        <h3>Gra, w której lecisz ziemniakiem!</h3>
+        
+        <img src="Ziemniak.png" alt="lubie ziemniaki" height="150" width="150" class="potato-img">
+
+        <hr>
+
+        <h4>Źródło do pobrania:</h4>
+        <a href="https://drive.google.com/file/d/1urfp0jb81aC2lXzkDzlAQCc0Kdpt2yro/view?usp=drive_link" target="_blank" title="Plik IPA na iOS" class="download-btn">
+            [ Pobierz na iOS (IPA) ]
+        </a>
+        <div class="note">Link prowadzi na Google Drive</div>
+    </div>
+
+</body>
+</html>
